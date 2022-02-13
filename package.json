@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "0.0.1",
+  "description": "eleventy blog webnpm install --save-dev @11ty/eleventysite",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --input=src --serve",
+    "build": "npx @11ty/eleventy --input=src"
+  },
+  "keywords": [
+    "blog",
+    "eleventh",
+    "jamstack"
+  ],
+  "author": "Elahe",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^1.0.0",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^6.2.1"
+  }
+}

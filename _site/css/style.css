@@ -1,0 +1,29 @@
+
+body{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(../img/perspolis1.jpg);
+    background-size:cover;
+    background-position: center;
+	  background-blend-mode: multiply;
+    background-color: rgba(143, 143, 145, 0.692);
+    color: rgb(227, 234, 240);
+    margin :0 ;  
+    padding:0 2em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 1.7; 
+}
+
+a {
+    color: rgb(241, 239, 240);
+  }
+  a:hover {
+    color: rgb(150, 242, 247);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(31, 194, 243);
+  }
+
